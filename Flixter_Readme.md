@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![]https://github.com/CoderAbdiaziz/Flixter/blob/master/FlixterMovie.gif
+![](https://github.com/CoderAbdiaziz/Flixter/blob/master/FlixterMovie.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
