@@ -16,6 +16,7 @@ public class Movie {
     String title;
     String overview;
     Double voteAverage;
+    Double Popularity;
 
     public Movie() {
     }
@@ -30,6 +31,7 @@ public class Movie {
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
         voteAverage = jsonObject.getDouble("vote_average");
+        Popularity = jsonObject.getDouble("popularity");
 
 
     }
@@ -57,4 +59,8 @@ public class Movie {
     public String getOverview() {
         return overview;
     }
+
+    public Double getPopularity(){ return Popularity;}
 }
+
+
